@@ -3809,15 +3809,15 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	chadsire: {
 		num: 1500,
-		name: "Quagsire",
+		name: "Chadsire",
 		types: ["Water", "Ground"],
 		baseStats: {hp: 115, atk: 105, def: 85, spa: 65, spd: 65, spe: 35},
 		abilities: {0: "Swift Swim", 1: "Water Absorb", H: "Gorilla Tactics"},
-		heightm: 1.4,
+		heightm: 2.7,
 		weightkg: 75,
 		color: "Blue",
 		prevo: "Wooper",
-		evoLevel: 20,
+		evoLevel: 23,
 		eggGroups: ["Water 1", "Field"],
 	},
 	espeon: {

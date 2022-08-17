@@ -1604,9 +1604,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	chadsire: {
 		randomBattleMoves: ["earthquake", "encore", "icebeam", "recover", "scald", "bellydrum"],
-		randomBattleLevel: 84,
+		randomBattleLevel: 86,
 		randomDoubleBattleMoves: ["highhorsepower", "protect", "recover", "scald", "bellydrum"],
-		randomDoubleBattleLevel: 88,
+		randomDoubleBattleLevel: 83,
 		tier: "Uber",
 		doublesTier: "(DUU)",
 	},

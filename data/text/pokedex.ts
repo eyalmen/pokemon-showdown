@@ -803,6 +803,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	quagsire: {
 		name: "Quagsire",
 	},
+	chadsire: {
+		name: "Chadsire"
+	},
 	espeon: {
 		name: "Espeon",
 	},
