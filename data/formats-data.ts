@@ -1602,6 +1602,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	chadsire: {
+		randomBattleMoves: ["earthquake", "encore", "icebeam", "recover", "scald", "bellydrum"],
+		randomBattleLevel: 84,
+		randomDoubleBattleMoves: ["highhorsepower", "protect", "recover", "scald", "bellydrum"],
+		randomDoubleBattleLevel: 88,
+		tier: "Uber",
+		doublesTier: "(DUU)",
+	},
 	murkrow: {
 		isNonstandard: "Past",
 		tier: "Illegal",

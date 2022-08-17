@@ -487,25 +487,25 @@ export const Formats: FormatList = [
 		],
 	},
 	{
-                name: "[Gen 8] National Dex Pseudos",
-                threads: [
-                        //`&bullet; <a href="https://www.smogon.com/forums/threads/3666135/">National Dex Metagame Discussion</a>`,
-                        //`&bullet; <a href="https://www.smogon.com/forums/threads/3667921/">National Dex Sample Teams</a>`,
-                        //`&bullet; <a href="https://www.smogon.com/forums/threads/3666572/">National Dex Viability Rankings</a>`,
-                ],
+		name: "[Gen 8] National Dex Pseudos",
+		threads: [
+				//`&bullet; <a href="https://www.smogon.com/forums/threads/3666135/">National Dex Metagame Discussion</a>`,
+				//`&bullet; <a href="https://www.smogon.com/forums/threads/3667921/">National Dex Sample Teams</a>`,
+				//`&bullet; <a href="https://www.smogon.com/forums/threads/3666572/">National Dex Viability Rankings</a>`,
+		],
 
-                mod: 'gen8',
-                ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Sleep Clause Mod'],
-                banlist: [
-                        'Arceus', 'Calyrex-Ice', 'Calyrex-Shadow', 'Darmanitan-Galar',
-                        'Deoxys-Attack', 'Deoxys-Base', 'Deoxys-Speed', 'Dracovish', 'Dragapult', 'Eternatus', 'Gengar-Mega', 'Giratina',
-                        'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Kangaskhan-Mega', 'Kyogre', 'Landorus-Base', 'Lucario-Mega',
-                        'Lunala', 'Marshadow', 'Mewtwo', 'Naganadel', 'Necrozma-Dusk-Mane',
-                        'Necrozma-Ultra', 'Rayquaza', 'Salamence-Mega', 'Shaymin-Sky',
-                        'Urshifu-Base', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zekrom', 'Zygarde-Complete',
-                        'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass',
-                ],
-        },
+		mod: 'gen8',
+		ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Sleep Clause Mod'],
+		banlist: [
+				'Arceus', 'Calyrex-Ice', 'Calyrex-Shadow', 'Darmanitan-Galar',
+				'Deoxys-Attack', 'Deoxys-Base', 'Deoxys-Speed', 'Dracovish', 'Dragapult', 'Eternatus', 'Gengar-Mega', 'Giratina',
+				'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Kangaskhan-Mega', 'Kyogre', 'Landorus-Base', 'Lucario-Mega',
+				'Lunala', 'Marshadow', 'Mewtwo', 'Naganadel', 'Necrozma-Dusk-Mane',
+				'Necrozma-Ultra', 'Rayquaza', 'Salamence-Mega', 'Shaymin-Sky',
+				'Urshifu-Base', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zekrom', 'Zygarde-Complete',
+				'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass',
+		],
+	},
 	{
 		name: "[Gen 8] National Dex UU",
 		threads: [

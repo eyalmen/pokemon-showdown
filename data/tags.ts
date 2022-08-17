@@ -200,7 +200,7 @@ export const Tags: {[id: string]: TagData} = {
 		name: "AG",
 		speciesFilter: species => species.tier === 'AG',
 	},
-	nduubl: {
+	bl: {
 		name: "ND UUBL",
 		speciesFilter: species => [
 			'Aerodactyl-Mega', 'Azumarill', 'Blacephalon', 'Diancie-Mega', 'Gallade-Mega', 'Gardevoir-Mega', 'Gengar', 'Gyarados', 'Hawlucha',
