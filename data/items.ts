@@ -701,6 +701,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	charizarditez: {
+		name: "Charizardite Z",
+		spritenum: 586,
+		megaStone: "Charizard-Mega-Z",
+		megaEvolves: "Charizard",
+		itemUser: ["Charizard"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 6000,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	chartiberry: {
 		name: "Charti Berry",
 		spritenum: 62,

@@ -45,6 +45,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	charizardmegaz: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	charizardgmax: {
 		randomDoubleBattleMoves: ["airslash", "fireblast", "focusblast", "heatwave", "protect", "tailwind"],
 		randomDoubleBattleLevel: 80,
