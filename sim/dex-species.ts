@@ -273,7 +273,7 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 		this.unreleasedHidden = data.unreleasedHidden || false;
 		this.maleOnlyHidden = !!data.maleOnlyHidden;
 		this.maxHP = data.maxHP || undefined;
-		this.isMega = !!(this.forme && ['Mega', 'Mega-X', 'Mega-Y'].includes(this.forme)) || undefined;
+		this.isMega = !!(this.forme && ['Mega', 'Mega-X', 'Mega-Y', 'Mega-Z'].includes(this.forme)) || undefined;
 		this.canGigantamax = data.canGigantamax || undefined;
 		this.gmaxUnreleased = !!data.gmaxUnreleased;
 		this.cannotDynamax = !!data.cannotDynamax;
@@ -468,7 +468,7 @@ export class DexSpecies {
 			if (this.dex.currentMod === 'letsgo' && !species.isNonstandard) {
 				const isLetsGo = (
 					(species.num <= 151 || ['Meltan', 'Melmetal'].includes(species.name)) &&
-					(!species.forme || ['Alola', 'Mega', 'Mega-X', 'Mega-Y', 'Starter'].includes(species.forme))
+					(!species.forme || ['Alola', 'Mega', 'Mega-X', 'Mega-Y', 'Mega-Z', 'Starter'].includes(species.forme))
 				);
 				if (!isLetsGo) species.isNonstandard = 'Past';
 			}

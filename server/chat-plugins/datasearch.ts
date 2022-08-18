@@ -1150,7 +1150,7 @@ function runDexsearch(target: string, cmd: string, canAll: boolean, message: str
 		results = results.filter(name => {
 			const species = mod.species.get(name);
 			return (species.num <= 151 || ['Meltan', 'Melmetal'].includes(species.name)) &&
-			(!species.forme || (['Alola', 'Mega', 'Mega-X', 'Mega-Y', 'Starter'].includes(species.forme) &&
+			(!species.forme || (['Alola', 'Mega', 'Mega-X', 'Mega-Z', 'Mega-Y', 'Starter'].includes(species.forme) &&
 				species.name !== 'Pikachu-Alola'));
 		});
 	}
