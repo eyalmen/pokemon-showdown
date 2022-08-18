@@ -78,7 +78,7 @@ function getLetsGoMoves(species: string | Species) {
 	species = Dex.species.get(species);
 	const isLetsGoLegal = (
 		(species.num <= 151 || ['Meltan', 'Melmetal'].includes(species.name)) &&
-		(!species.forme || ['Alola', 'Mega', 'Mega-X', 'Mega-Z', 'Mega-Y', 'Starter'].includes(species.forme))
+		(!species.forme || ['Alola', 'Mega', 'Mega-X', 'Mega-Y', 'Starter'].includes(species.forme))
 	);
 	if (!isLetsGoLegal) return false;
 	if (!species.randomBattleMoves?.length) return false;
