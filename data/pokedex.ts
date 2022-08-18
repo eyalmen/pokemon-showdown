@@ -115,8 +115,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Charmeleon",
 		evoLevel: 36,
 		eggGroups: ["Monster", "Dragon"],
-		otherFormes: ["Charizard-Mega-X", "Charizard-Mega-Y"],
-		formeOrder: ["Charizard", "Charizard-Mega-X", "Charizard-Mega-Y"],
+		otherFormes: ["Charizard-Mega-X", "Charizard-Mega-Y", "Charizard-Mega-Z"],
+		formeOrder: ["Charizard", "Charizard-Mega-X", "Charizard-Mega-Y", "Charizard-Mega-Z"],
 		canGigantamax: "G-Max Wildfire",
 	},
 	charizardmegax: {
