@@ -145,7 +145,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		ruleset: ['[Gen 8] OU'],
-		banlist: ['OU', 'UUBL', 'Light Clay', 'DNU'],
+		banlist: ['OU', 'UUBL', 'Light Clay'],
 	},
 	{
 		name: "[Gen 8] RU",
@@ -157,7 +157,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		ruleset: ['[Gen 8] UU'],
-		banlist: ['UU', 'RUBL', 'DNU'],
+		banlist: ['UU', 'RUBL'],
 	},
 	{
 		name: "[Gen 8] NU",
@@ -169,7 +169,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		ruleset: ['[Gen 8] RU'],
-		banlist: ['RU', 'NUBL', 'Drizzle', 'Drought', 'Snow Warning', 'DNU'],
+		banlist: ['RU', 'NUBL', 'Drizzle', 'Drought', 'Snow Warning'],
 	},
 	{
 		name: "[Gen 8] PU",
@@ -180,7 +180,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		ruleset: ['[Gen 8] NU'],
-		banlist: ['NU', 'PUBL', 'DNU'],
+		banlist: ['NU', 'PUBL'],
 	},
 	{
 		name: "[Gen 8] LC",
