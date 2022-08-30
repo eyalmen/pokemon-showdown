@@ -38,7 +38,7 @@ export const Formats: FormatList = [
                 banlist: ['AG', 'Shadow Tag', 'Baton Pass', 'Uber', 'Suspect', 'Rusted Shield', 'Zygarde-Base + Power Construct', 'Moody']
         },
 		{
-			name: "[Gen 8] Do Not Use",
+			name: "[Gen 8] DNU",
 			threads: [
 			//      `&bullet; <a href="https://www.smogon.com/forums/threads/3676539/">Ubers Metagame Discussion</a>`,
 			//      `&bullet; <a href="https://www.smogon.com/forums/threads/3675564/">Ubers Sample Teams</a>`,
@@ -47,7 +47,7 @@ export const Formats: FormatList = [
 
 			mod: 'gen8',
 			ruleset: ['Standard', 'Dynamax Clause', 'Evasion Items Clause'],
-			banlist: ['AG', 'Shadow Tag', 'Baton Pass', 'Uber', 'Suspect', 'OU', 'UU', "RU", "NU", "PU", ]
+			banlist: ['AG', 'Shadow Tag', 'Baton Pass', 'Uber', 'Suspect', 'OU', 'UU', "RU", "NU", "PU", "Huge Power"]
 		},
 //	{
   //              name: "[Gen 8] Pseudos Suspect",
