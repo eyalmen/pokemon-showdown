@@ -47,7 +47,7 @@ export const Formats: FormatList = [
 
 			mod: 'gen8',
 			ruleset: ['Standard', 'Dynamax Clause', 'Evasion Items Clause'],
-			banlist: ['AG', 'Shadow Tag', 'Baton Pass', 'Uber', 'Suspect', 'OU', 'UU', "RU", "NU", "PU", "Huge Power"]
+			banlist: ['AG', 'Shadow Tag', 'Baton Pass', 'Uber', 'Suspect', 'OU', 'UU', "RU", "NU", "PU", "ZU", "Huge Power"]
 		},
 //	{
   //              name: "[Gen 8] Pseudos Suspect",
