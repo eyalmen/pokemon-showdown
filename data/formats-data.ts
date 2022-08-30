@@ -2857,7 +2857,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	combee: {
-		tier: "LC",
+		tier: "DNU",
 	},
 	vespiquen: {
 		randomBattleMoves: ["airslash", "defog", "roost", "toxic", "uturn"],
