@@ -107,12 +107,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUber)",
 	},
 	weedle: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		// isNonstandard: "Past",
+		tier: "DNU",
 	},
 	kakuna: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		// isNonstandard: "Past",
+		tier: "DNU",
 	},
 	beedrill: {
 		isNonstandard: "Past",
@@ -1448,7 +1448,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	sentret: {
 		isNonstandard: "Past",
-		tier: "Illegal",
 	},
 	furret: {
 		isNonstandard: "Past",
@@ -1580,8 +1579,8 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	sunkern: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		// isNonstandard: "Past",
+		tier: "DNU",
 	},
 	sunflora: {
 		isNonstandard: "Past",
@@ -1631,8 +1630,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	unown: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "DNU",
 	},
 	wynaut: {
 		tier: "LC",
@@ -1968,8 +1966,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	poochyena: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "DNU",
 	},
 	mightyena: {
 		isNonstandard: "Past",
@@ -2001,20 +1998,17 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	wurmple: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "DNU",
 	},
 	silcoon: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "DNU",
 	},
 	beautifly: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
 	cascoon: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "DNU",
 	},
 	dustox: {
 		isNonstandard: "Past",
@@ -2115,8 +2109,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	slakoth: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "DNU",
 	},
 	vigoroth: {
 		isNonstandard: "Past",
@@ -2142,7 +2135,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 88,
 		randomDoubleBattleMoves: ["allyswitch", "poltergeist", "protect", "shadowsneak", "swordsdance", "willowisp", "xscissor"],
 		randomDoubleBattleLevel: 95,
-		tier: "(PU)",
+		tier: "DNU",
 		doublesTier: "(DUU)",
 	},
 	whismur: {
@@ -2160,8 +2153,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	makuhita: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "DNU",
 	},
 	hariyama: {
 		isNonstandard: "Past",
@@ -2605,8 +2597,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	luvdisc: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "DNU",
 	},
 	bagon: {
 		tier: "LC",
@@ -2791,8 +2782,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	starly: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "DNU",
 	},
 	staravia: {
 		isNonstandard: "Past",
@@ -2811,8 +2801,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	kricketot: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "DNU",
 	},
 	kricketune: {
 		isNonstandard: "Past",
@@ -2849,8 +2838,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	burmy: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "DNU",
 	},
 	wormadam: {
 		isNonstandard: "Past",
@@ -4305,12 +4293,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	scatterbug: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "DNU",
 	},
 	spewpa: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "DNU",
 	},
 	vivillon: {
 		isNonstandard: "Past",
