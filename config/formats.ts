@@ -35,7 +35,7 @@ export const Formats: FormatList = [
 
                 mod: 'gen8',
                 ruleset: ['Standard', 'Dynamax Clause', 'Evasion Items Clause'],
-                banlist: ['AG', 'Shadow Tag', 'Baton Pass', 'Uber', 'Suspect', 'Rusted Shield', 'Zygarde-Base + Power Construct', 'Moody']
+                banlist: ['AG', 'Shadow Tag', 'Baton Pass', 'Uber', 'Suspect', 'Rusted Shield', 'Zygarde-Base + Power Construct', 'Moody', 'DNU']
         },
 		{
 			name: "[Gen 8] DNU",
@@ -115,7 +115,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		ruleset: ['Standard', 'Dynamax Clause'],
-		banlist: ['Uber', 'AG', 'Pseudo', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Suspect', 'Baton Pass'],
+		banlist: ['Uber', 'AG', 'Pseudo', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Suspect', 'Baton Pass', 'DNU'],
 	},
 	{
 		name: "[Gen 8] OU (Blitz)",
@@ -133,7 +133,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		ruleset: ['Standard', 'Dynamax Clause'],
-		banlist: ['AG', 'Shadow Tag', 'Baton Pass'],
+		banlist: ['AG', 'Shadow Tag', 'Baton Pass', 'DNU'],
 	},
 	{
 		name: "[Gen 8] UU",
@@ -145,7 +145,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		ruleset: ['[Gen 8] OU'],
-		banlist: ['OU', 'UUBL', 'Light Clay'],
+		banlist: ['OU', 'UUBL', 'Light Clay', 'DNU'],
 	},
 	{
 		name: "[Gen 8] RU",
@@ -157,7 +157,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		ruleset: ['[Gen 8] UU'],
-		banlist: ['UU', 'RUBL'],
+		banlist: ['UU', 'RUBL', 'DNU'],
 	},
 	{
 		name: "[Gen 8] NU",
@@ -169,7 +169,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		ruleset: ['[Gen 8] RU'],
-		banlist: ['RU', 'NUBL', 'Drizzle', 'Drought', 'Snow Warning'],
+		banlist: ['RU', 'NUBL', 'Drizzle', 'Drought', 'Snow Warning', 'DNU'],
 	},
 	{
 		name: "[Gen 8] PU",
@@ -180,7 +180,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		ruleset: ['[Gen 8] NU'],
-		banlist: ['NU', 'PUBL'],
+		banlist: ['NU', 'PUBL', 'DNU'],
 	},
 	{
 		name: "[Gen 8] LC",
@@ -234,7 +234,7 @@ export const Formats: FormatList = [
 			'Calyrex-Ice', 'Calyrex-Shadow', 'Cinderace', 'Dialga', 'Dragonite', 'Eternatus', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-Black',
 			'Kyurem-White', 'Lugia', 'Lunala', 'Magearna', 'Marshadow', 'Melmetal', 'Mew', 'Mewtwo', 'Mimikyu', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Palkia',
 			'Rayquaza', 'Reshiram', 'Sableye', 'Snorlax', 'Solgaleo', 'Victini', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned', 'Zekrom',
-			'Moody', 'Bright Powder', 'Focus Band', 'Focus Sash', 'Lax Incense', 'Quick Claw', 'Perish Song',
+			'Moody', 'Bright Powder', 'DNU', 'Focus Band', 'Focus Sash', 'Lax Incense', 'Quick Claw', 'Perish Song',
 		],
 	},
 	{
@@ -247,6 +247,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		ruleset: ['Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
+		banlist: ['DNU'],
 	},
 	{
 		name: "[Gen 8] ZU",
