@@ -35,7 +35,7 @@ export const Formats: FormatList = [
 
                 mod: 'gen8',
                 ruleset: ['Standard', 'Dynamax Clause', 'Evasion Items Clause'],
-                banlist: ['AG', 'Shadow Tag', 'Baton Pass', 'Uber', 'Suspect', 'Rusted Shield', 'Zygarde-Base + Power Construct', 'Moody', 'DNU']
+                banlist: ['AG', 'Shadow Tag', 'Baton Pass', 'Uber', 'Suspect', 'Rusted Shield', 'Zygarde-Base + Power Construct', 'Moody']
         },
 		{
 			name: "[Gen 8] Do Not Use",
@@ -115,7 +115,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		ruleset: ['Standard', 'Dynamax Clause'],
-		banlist: ['Uber', 'AG', 'Pseudo', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Suspect', 'Baton Pass', 'DNU'],
+		banlist: ['Uber', 'AG', 'Pseudo', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Suspect', 'Baton Pass'],
 	},
 	{
 		name: "[Gen 8] OU (Blitz)",
@@ -133,7 +133,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		ruleset: ['Standard', 'Dynamax Clause'],
-		banlist: ['AG', 'Shadow Tag', 'Baton Pass', 'DNU'],
+		banlist: ['AG', 'Shadow Tag', 'Baton Pass'],
 	},
 	{
 		name: "[Gen 8] UU",
@@ -234,7 +234,7 @@ export const Formats: FormatList = [
 			'Calyrex-Ice', 'Calyrex-Shadow', 'Cinderace', 'Dialga', 'Dragonite', 'Eternatus', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-Black',
 			'Kyurem-White', 'Lugia', 'Lunala', 'Magearna', 'Marshadow', 'Melmetal', 'Mew', 'Mewtwo', 'Mimikyu', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Palkia',
 			'Rayquaza', 'Reshiram', 'Sableye', 'Snorlax', 'Solgaleo', 'Victini', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned', 'Zekrom',
-			'Moody', 'Bright Powder', 'DNU', 'Focus Band', 'Focus Sash', 'Lax Incense', 'Quick Claw', 'Perish Song',
+			'Moody', 'Bright Powder', 'Focus Band', 'Focus Sash', 'Lax Incense', 'Quick Claw', 'Perish Song',
 		],
 	},
 	{
@@ -247,7 +247,6 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		ruleset: ['Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
-		banlist: ['DNU'],
 	},
 	{
 		name: "[Gen 8] ZU",
