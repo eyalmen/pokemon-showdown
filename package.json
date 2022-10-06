@@ -4,15 +4,18 @@
   "version": "0.11.7",
   "main": ".sim-dist/index.js",
   "dependencies": {
+    "@pkmn/dex": "^0.5.26",
+    "@pkmn/stats": "^0.0.2",
     "@types/better-sqlite3": "^5.4.0",
     "express": "^4.18.1",
     "fs": "0.0.1-security",
+    "nvm": "^0.0.4",
     "probe-image-size": "^5.0.0",
     "sockjs": "^0.3.21",
+    "subpkg": "^4.1.0",
     "sucrase": "^3.15.0"
   },
   "optionalDependencies": {
-    "better-sqlite3": "^7.1.0",
     "brain.js": "^2.0.0-beta.2",
     "cloud-env": "^0.2.3",
     "node-static": "^0.7.11",

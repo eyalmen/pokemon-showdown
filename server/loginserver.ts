@@ -10,6 +10,7 @@
 const LOGIN_SERVER_TIMEOUT = 30000;
 const LOGIN_SERVER_BATCH_TIME = 1000;
 
+import { log } from 'console';
 import {Net, FS} from '../lib';
 
 /**
@@ -130,7 +131,9 @@ class LoginServerInstance {
 		this.requestStart(requests.length);
 
 		try {
+
 			const request = Net(`${this.uri}action.php`);
+			
 			let buffer = await request.post({
 				body: {
 					serverid: Config.serverid,
@@ -139,8 +142,12 @@ class LoginServerInstance {
 					json: JSON.stringify(dataList),
 				},
 				timeout: LOGIN_SERVER_TIMEOUT,
+				
+				
 			});
-			// console.log('RESPONSE: ' + buffer);
+			console.log("REQUEST: " + JSON.stringify(dataList));
+			console.log('RESPONSE: ' + buffer);
+			console.log('URI: ' + this.uri);
 			const data = parseJSON(buffer).json;
 			if (buffer.startsWith(`[{"actionsuccess":true,`)) {
 				buffer = 'stream interrupt';
@@ -152,6 +159,7 @@ class LoginServerInstance {
 			for (const [i, resolve] of resolvers.entries()) {
 				resolve([data[i], null]);
 			}
+			// log(buffer);
 
 			this.requestEnd();
 		} catch (error) {

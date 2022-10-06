@@ -654,13 +654,19 @@ export class User extends Chat.MessageContext {
 			return null;
 		}
 
-		const success = await Verifier.verify(tokenData, tokenSig);
-		if (!success) {
-			Monitor.warn(`verify failed: ${token}`);
-			Monitor.warn(`challenge was: ${challenge}`);
-			this.send(`|nametaken|${name}|Your verification signature was invalid.`);
-			return null;
+		if (signedHostname === 'pseudo.gq') { //the hostname for pseudo.gq.psim.us for some reason
+			this.send(`|popup||modal||html|<div class="pad"><p><strong>Warning:</strong> You are using http://pseudo.gq.psim.us. Please visit <a href="https://play.pseudo.gq">https://play.pseudo.gq</a> to play on the official client.<br>You will receive no support for pseudo.gq.psim.us.</p></div>`);
+			return null;			
 		}
+
+		// const success = await Verifier.verify(tokenData, tokenSig);
+		// if (!success) {
+		// 	Monitor.warn(`verify failed: ${token}`);
+		// 	Monitor.warn(`challenge was: ${challenge}`);
+		// 	this.send(`|nametaken|${name}|Your verification signature was invalid.`);
+		// 	return null;
+		// }
+		
 
 		// future-proofing
 		this.s1 = tokenDataSplit[5];
@@ -1597,6 +1603,7 @@ function socketConnect(
 
 	const user = new User(connection);
 	connection.user = user;
+	
 	void Punishments.checkIp(user, connection);
 	// Generate 1024-bit challenge string.
 	require('crypto').randomBytes(128, (err: Error | null, buffer: Buffer) => {
@@ -1611,6 +1618,9 @@ function socketConnect(
 			connection.challenge = buffer.toString('hex');
 			// console.log('JOIN: ' + connection.user.name + ' [' + connection.challenge.substr(0, 15) + '] [' + socket.id + ']');
 			const keyid = Config.loginserverpublickeyid || 0;
+			// console.log('KEYID: ' + keyid);
+			// console.log('CHALLENGE: ' + connection.challenge);
+			// console.log('SOCKETID: ' + socketid);
 			connection.sendTo(null, `|challstr|${keyid}|${connection.challenge}`);
 		}
 	});
