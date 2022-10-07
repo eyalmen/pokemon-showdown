@@ -144,6 +144,14 @@ export const Tags: {[id: string]: TagData} = {
 		name: "UUBL",
 		speciesFilter: species => species.tier === 'UUBL',
 	},
+	oud: {
+		name: "OUD",
+		speciesFilter: species => species.tier === 'OUD',
+	},
+	uud: {
+		name: "UUD",
+		speciesFilter: species => species.tier === 'OUD',
+	},
 	uu: {
 		name: "UU",
 		speciesFilter: species => species.tier === 'UU',

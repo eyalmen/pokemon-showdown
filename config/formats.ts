@@ -62,7 +62,7 @@ export const Formats: FormatList = [
 		mod: 'gen8deluxe',
 		ruleset: ['Standard NatDex', 'Z-Move Clause','OHKO Clause', 'Evasion Moves Clause', 'Evasion Items Clause', 'Species Clause', 'Dynamax Clause', 'Sleep Clause Mod'],
 		banlist: [
-			"Uber", "AG", "OU"/*, "OUD"*/, "Teleport", "Quick Claw", "Acupressure", "Shadow Tag", "Baton Pass", "King's Rock",
+			"Uber", "AG", "OU", "OUD", "Teleport", "Quick Claw", "Acupressure", "Shadow Tag", "Baton Pass", "King's Rock",
 		],
 	},
 	{
