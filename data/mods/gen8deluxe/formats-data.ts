@@ -1061,7 +1061,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "liquidation",
    "poisonjab"
   ],
-  "tier": "RU"
+  "tier": "OU"
  },
  basculegion: {
   "isNonstandard": "Future",
@@ -1341,7 +1341,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "shadowball",
    "trick"
   ],
-  "tier": "UUBL"
+  "tier": "OU"
  },
  blastoise: {
   "doublesTier": "DOU",
@@ -3452,7 +3452,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "highhorsepower",
    "rockslide"
   ],
-  "tier": "UUBL"
+  "tier": "OU"
  },
  dragalge: {
   "doublesTier": "(DUU)",
@@ -4196,7 +4196,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "rockslide",
    "swordsdance"
   ],
-  "tier": "OU"
+  "tier": "UUD"
  },
  exeggcute: {
   "tier": "LC"
@@ -6076,7 +6076,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "whirlwind",
    "yawn"
   ],
-  "tier": "OU"
+  "tier": "UUD"
  },
  hitmonchan: {
   "doublesTier": "(DUU)",
@@ -6326,7 +6326,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "protect",
    "tailwind"
   ],
-  "tier": "OU"
+  "tier": "UUD"
  },
  hypno: {
   "doublesTier": "(DUU)",
@@ -7068,7 +7068,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "protect",
    "roost"
   ],
-  "tier": "Pseudo"
+  "tier": "OUD"
  },
  kyuremblack: {
   "doublesTier": "DOU",
@@ -7293,7 +7293,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "tailwind",
    "trick"
   ],
-  "tier": "UUBL"
+  "tier": "OU"
  },
  latiosmega: {
   "doublesTier": "(DUU)",
@@ -8035,7 +8035,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "tailwind",
    "taunt"
   ],
-  "tier": "OU"
+  "tier": "UUD"
  },
  manectric: {
   "doublesTier": "(DUU)",
@@ -8508,7 +8508,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "thunderpunch",
    "zenheadbutt"
   ],
-  "tier": "Uber"
+  "tier": "OUD"
  },
  metang: {
   "tier": "NFE"
@@ -12541,7 +12541,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "irondefense",
    "roost"
   ],
-  "tier": "OU"
+  "tier": "UUD"
  },
  skiddo: {
   "tier": "LC"
@@ -12631,7 +12631,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "slackoff",
    "trickroom"
   ],
-  "tier": "OU"
+  "tier": "UUD"
  },
  slowbrogalar: {
   "doublesTier": "(DUU)",
@@ -12698,7 +12698,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "slackoff",
    "trickroom"
   ],
-  "tier": "OU"
+  "tier": "UUD"
  },
  slowkinggalar: {
   "doublesTier": "(DUU)",
@@ -13344,7 +13344,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "stealthrock",
    "wideguard"
   ],
-  "tier": "OU"
+  "tier": "UUD"
  },
  swampertmega: {
   "doublesTier": "DOU",
@@ -14570,7 +14570,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "vcreate",
    "zenheadbutt"
   ],
-  "tier": "UUBL"
+  "tier": "OU"
  },
  victreebel: {
   "doublesTier": "(DUU)",
@@ -15385,7 +15385,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "thunderouskick",
    "uturn"
   ],
-  "tier": "UUBL"
+  "tier": "OU"
  },
  zarude: {
   "doublesTier": "(DUU)",
