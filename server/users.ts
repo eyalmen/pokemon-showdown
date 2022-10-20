@@ -1251,9 +1251,23 @@ export class User extends Chat.MessageContext {
 	}
 	async tryJoinRoom(roomid: RoomID | Room, connection: Connection) {
 		roomid = roomid && (roomid as Room).roomid ? (roomid as Room).roomid : roomid as RoomID;
-		const room = Rooms.search(roomid);
+		let room = Rooms.search(roomid);
 		if (!room && roomid.startsWith('view-')) {
 			return Chat.resolvePage(roomid, this, connection);
+		}
+		if (!room && roomid.startsWith('battle-')) {
+			if (this.isStaff) {
+				for (const battle of Rooms.rooms.keys()) {
+					if (battle.startsWith(roomid)) {
+						room = Rooms.get(battle);
+						break;
+					}
+				}
+			}
+			if (!room) {
+				connection.sendTo(roomid, `|noinit|nonexistent|The room "${roomid}" does not exist.`);
+				return false;
+			}
 		}
 		if (!room?.checkModjoin(this)) {
 			if (!this.named) {

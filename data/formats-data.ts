@@ -1732,7 +1732,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	swinub: {
-		tier: "LC",
+		tier: "Do Not Use",
 	},
 	piloswine: {
 		tier: "NFE",
@@ -6007,7 +6007,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 74,
 		randomDoubleBattleMoves: ["closecombat", "crunch", "playrough", "protect", "psychicfangs"],
 		randomDoubleBattleLevel: 74,
-		tier: "Uber",
+		tier: "Pseubers",
 		doublesTier: "DUber",
 	},
 	zamazentacrowned: {
@@ -6015,7 +6015,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 71,
 		randomDoubleBattleMoves: ["behemothbash", "closecombat", "crunch", "howl", "protect", "psychicfangs"],
 		randomDoubleBattleLevel: 72,
-		tier: "Uber",
+		tier: "Pseubers",
 		doublesTier: "DUber",
 	},
 	eternatus: {
@@ -6038,7 +6038,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 76,
 		randomDoubleBattleMoves: ["closecombat", "ironhead", "protect", "suckerpunch", "wickedblow"],
 		randomDoubleBattleLevel: 76,
-		tier: "Uber",
+		tier: "Pseubers",
 		doublesTier: "DUber",
 	},
 	urshifurapidstrike: {

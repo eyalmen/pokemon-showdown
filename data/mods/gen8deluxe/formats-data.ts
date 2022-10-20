@@ -1423,7 +1423,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "protect",
    "swordsdance"
   ],
-  "tier": "UUD"
+  "tier": "OU"
  },
  blazikenmega: {
   "doublesTier": "DUU",
@@ -3172,7 +3172,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "taunt",
    "trickroom"
   ],
-  "tier": "Uber"
+  "tier": "UUD"
  },
  deoxysspeed: {
   "doublesTier": "(DUU)",
@@ -6235,7 +6235,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "psychic",
    "zenheadbutt"
   ],
-  "tier": "UUBL"
+  "tier": "OU"
  },
  hoothoot: {
   "tier": "LC"
@@ -9208,7 +9208,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "sludgebomb",
    "superpower"
   ],
-  "tier": "OU"
+  "tier": "UUD"
  },
  nidoqueen: {
   "doublesTier": "(DUU)",
@@ -12720,7 +12720,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "trick",
    "trickroom"
   ],
-  "tier": "OU"
+  "tier": "UUD"
  },
  slowpoke: {
   "tier": "LC"
