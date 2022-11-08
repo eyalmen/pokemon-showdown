@@ -3171,7 +3171,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 74,
 		randomDoubleBattleMoves: ["calmmind", "dragonpulse", "rest", "shadowball", "willowisp"],
 		randomDoubleBattleLevel: 74,
-		tier: "Uber",
+		tier: "Pseudo",
 		doublesTier: "DUber",
 	},
 	giratinaorigin: {
@@ -4144,7 +4144,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 76,
 		randomDoubleBattleMoves: ["calmmind", "earthpower", "focusblast", "protect", "psychic", "sludgebomb"],
 		randomDoubleBattleLevel: 80,
-		tier: "Uber",
+		tier: "Pseudo",
 		doublesTier: "DOU",
 	},
 	landorustherian: {
@@ -4640,7 +4640,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 70,
 		randomDoubleBattleMoves: ["coil", "dragondance", "extremespeed", "glare", "irontail", "thousandarrows"],
 		randomDoubleBattleLevel: 72,
-		tier: "Pseudo",
+		tier: "Pseubers",
 		doublesTier: "DOU",
 	},
 	zygarde10: {
@@ -5372,7 +5372,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 76,
 		randomDoubleBattleMoves: ["heatwave", "moongeistbeam", "photongeyser", "protect", "thunderwave"],
 		randomDoubleBattleLevel: 72,
-		tier: "Pseudo",
+		tier: "Pseubers",
 		doublesTier: "DUber",
 	},
 	necrozmaultra: {
@@ -6015,7 +6015,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 71,
 		randomDoubleBattleMoves: ["behemothbash", "closecombat", "crunch", "howl", "protect", "psychicfangs"],
 		randomDoubleBattleLevel: 72,
-		tier: "Pseubers",
+		tier: "Pseudos",
 		doublesTier: "DUber",
 	},
 	eternatus: {
@@ -6038,7 +6038,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 76,
 		randomDoubleBattleMoves: ["closecombat", "ironhead", "protect", "suckerpunch", "wickedblow"],
 		randomDoubleBattleLevel: 76,
-		tier: "Pseubers",
+		tier: "Uber",
 		doublesTier: "DUber",
 	},
 	urshifurapidstrike: {

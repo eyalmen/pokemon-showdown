@@ -11,7 +11,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 	standard: {
 		effectType: 'ValidatorRule',
 		name: 'Standard',
-		desc: "The standard ruleset for all offical Smogon singles tiers (Ubers, OU, etc.)",
+		desc: "The 	 ruleset for all offical Smogon singles tiers (Ubers, OU, etc.)",
 		ruleset: [
 			'Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod',
 		],
@@ -68,6 +68,14 @@ export const Rulesets: {[k: string]: FormatData} = {
 		desc: "The standard ruleset for all official Smogon doubles tiers",
 		ruleset: [
 			'Obtainable', 'Team Preview', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Gravity Sleep Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod',
+		],
+	},
+	standardoms: {
+		effectType: 'ValidatorRule',
+		name: 'Standard OMs',
+		desc: "The standard ruleset for all Smogon OMs (Almost Any Ability, STABmons, etc.)",
+		ruleset: [
+			'Obtainable', 'Team Preview', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'Dynamax Clause', 'HP Percentage Mod', 'Cancel Mod', 'Overflow Stat Mod',
 		],
 	},
 	standardnatdex: {

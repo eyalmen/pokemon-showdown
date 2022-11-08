@@ -15190,7 +15190,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
    "thunderbolt",
    "voltswitch"
   ],
-  "tier": "RU"
+  "tier": "OU"
  },
  yamask: {
   "tier": "LC"
